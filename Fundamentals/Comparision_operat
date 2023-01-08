@@ -1,0 +1,24 @@
+
+//console.log(50 < 30)
+
+// console.log(30 >= 30)
+// console.log(50 == 50)
+
+// console.log("apple" > "banana")
+
+// console.log("glowing" > "glow") True
+
+// console.log("2" > 1)
+// console.log("01" == 1)
+
+//Strict Equality
+// console.log("01" === 1) --- This checks the typeof variables.
+
+// console.log(null == undefined)
+// console.log(null === undefined)
+
+// console.log(null > 0)  null becomes zero while comparing
+// console.log(null < 1)
+// console.log(null >= 0) 
+
+
