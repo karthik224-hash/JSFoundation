@@ -14,3 +14,13 @@
 // console.log( null && true ); // null
 // console.log( 1 && 2 && 3 && 14 && 7); // 7
 
+// Nullish Coalesing ??
+// || vs ??
+
+// let firstName = "";
+// console.log(firstName || "HiddenGeeks");
+
+// ?? only returns 1 next value if previous is null or undefined.
+// const a = 0;
+// console.log(a ?? 1)
+
