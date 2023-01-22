@@ -170,9 +170,9 @@
 // console.log(courses);
 // console.log(rest)
 
-let a = 10;
-let b = 15;
-[a,b] = [b,a]
+// let a = 10;
+// let b = 15;
+// [a,b] = [b,a]
 
-console.log("A - ",a);
-console.log("B -", b);
+// console.log("A - ",a);
+// console.log("B -", b);
