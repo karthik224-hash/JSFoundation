@@ -1,0 +1,103 @@
+//Example 1: This example describes the getElementById() method where element_id is used to change the color of the text on clicking the button.
+<!DOCTYPE html>
+<html>
+  
+<head>
+    <title>
+        DOM getElementById() Method
+    </title>
+  
+    <script>
+  
+        // Function to change the color of element
+        function geeks() {
+            var demo = document.getElementById("geeks");
+            demo.style.color = "green";
+        }
+    </script>
+</head>
+  
+<body style="text-align:center">
+    <h1 id="geeks">GeeksforGeeks</h1>
+    <h2>DOM getElementById() Method</h2>
+  
+    <!-- Click on the button to change color -->
+    <input type="button" 
+           onclick="geeks()" 
+           value="Click here to change color" />
+</body>
+  
+</html>
+
+Example 2: This example describes the getElementById() method where the element_id is used to change the content on clicking the button.
+<!DOCTYPE html>
+<html>
+  
+<head>
+    <title>
+        DOM getElementById() Method
+    </title>
+  
+    <script>
+  
+        // Function to change content of element
+        function geeks() {
+            var demo = document.getElementById("geeks");
+            demo.innerHTML = "Welcome to GeeksforGeeks!";
+        }
+    </script>
+</head>
+  
+<body style="text-align:center">
+    <h1>GeeksforGeeks</h1>
+    <h2>DOM getElementById() Method</h2>
+    <h3 id="geeks">Hello Geeks!</h3>
+  
+    <!-- Click here to change content -->
+    <input type="button" 
+           onclick="geeks()" 
+           value="Click here to change content" />
+</body>
+  
+</html>
+
+//Example 3
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DOM querySelectorAll() Method</title>
+        <style>
+            #geek {
+              border: 1px solid black;
+              margin: 5px;
+            }
+        </style>
+    </head>
+    <body style = "text-align: center;">
+        <h1 style = "color: green;">GeeksforGeeks</h1>
+        <h2>querySelectorAll() Method</h2>
+        <div id="geek">
+             
+ 
+<p>This is paragraph 1.</p>
+ 
+ 
+             
+ 
+<p>This is paragraph 2.</p>
+ 
+ 
+        </div>
+        <button onclick="myFunction()">Try it</button>
+        <script>
+            function myFunction() {
+                var x = document.getElementById("geek").querySelectorAll("p");
+                var i;
+                for (i = 0; i < x.length; i++) {
+                x[i].style.backgroundColor = "green";
+                x[i].style.color = "white";
+                }
+            }
+        </script>
+    </body>
+</html>
